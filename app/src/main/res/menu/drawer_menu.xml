@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/menu_feed"
+            android:icon="@drawable/ic_global_menu_feed"
+            android:title="My Feed" />
+        <item
+            android:id="@+id/menu_competitons"
+            android:icon="@drawable/ic_global_menu_direct"
+            android:title="Competitions" />
+        <item
+            android:id="@+id/menu_earnings"
+            android:icon="@drawable/ic_earnings_euro_symbol_black_24dp"
+            android:title="Earnings" />
+        <item
+            android:id="@+id/menu_profile"
+            android:icon="@drawable/ic_profile_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/menu_terms"
+            android:icon="@drawable/ic_priority_high_black_24dp"
+            android:title="Terms and conditions" />
+
+    </group>
+    <group>
+        <item
+            android:id="@+id/menu_logout"
+            android:title="Log out" />
+
+    </group>
+</menu>
